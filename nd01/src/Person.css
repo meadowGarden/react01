@@ -1,0 +1,50 @@
+
+
+
+
+.container {    
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 60%;
+    border-radius: 5em;
+}
+
+
+.left-panel {
+    background-color:#ff6a50;
+}
+
+
+.right-panel {
+    background-color: aliceblue;
+}
+
+.dark-text {
+    color: black;
+}
+
+.justify-text {
+    text-align: justify;
+    padding: 1em;
+}
+
+.date-text {
+    text-align: right;
+    padding: 1em;
+    margin: 0;
+    align-items:end;
+}
+
+
+.persons-details {
+    background-color:#a04434;
+    border-radius: 1em 1em 1em 1em;
+    padding: 10px;
+    margin: 0px;
+}
+
+.profile-photo {
+    width: 70%;
+    border-radius: 50%;
+}
+  
